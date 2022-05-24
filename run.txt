@@ -1,0 +1,1 @@
+docker run -v="/Users/mariusz/Desktop/SoapUI/":/project -e COMMAND_LINE="-f/%reports% '/%project%/Dog-API-soapui-project.xml'" -v="/Users/mariusz/Desktop/SoapUI/":/reports -it smartbear/soapuios-testrunner:latest
